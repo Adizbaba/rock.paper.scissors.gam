@@ -8,14 +8,15 @@
         .container{
             background: radial-gradient(circle, #24041b, #24041b, #7e6a78, #4f3647, #24041b); 
             background-repeat: no-repeat;
-            height: 1000px;
+            height: 990px;
             color: whitesmoke;
-            padding: 40px;
+            padding: 15px;
         }
 
         .p-element{
             font-size: 70px;
             font-weight: bold;
+            color: whitesmoke;
         }
 
         .move-icon{
@@ -42,7 +43,7 @@
         }
 
         .scores{
-            margin-top: 70px;
+            margin-top: 50px;
             font-size: 25px;
             font-weight: 700;
         }
@@ -63,3 +64,22 @@
             font-weight: bold;
         }
  
+
+        @media only screen and (max-width: 759px){
+            .p-element{
+                font-size: 8vw;
+            }
+
+            .move-icon{
+                height: 16vw;
+            }
+
+            .move-button{
+                background-color: transparent;
+                border: 3px solid white;
+                width: 20vw;
+                height: 20vw;
+                border-radius: 120px;
+                margin: 10px;
+            }
+        }
