@@ -1,0 +1,65 @@
+
+        body{
+            margin: 0;
+            padding: 0%;
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .container{
+            background: radial-gradient(circle, #24041b, #24041b, #7e6a78, #4f3647, #24041b); 
+            background-repeat: no-repeat;
+            height: 1000px;
+            color: whitesmoke;
+            padding: 40px;
+        }
+
+        .p-element{
+            font-size: 70px;
+            font-weight: bold;
+        }
+
+        .move-icon{
+            height: 180px;
+        }
+         
+        button{
+            cursor: pointer;
+        }
+        .move-button{
+            background-color: transparent;
+            border: 3px solid white;
+            width: 220px;
+            height: 220px;
+            border-radius: 120px;
+            margin: 10px;
+        }
+
+        .result{
+            font-size: 20px;
+            font-weight: bold;
+            color: whitesmoke;
+            margin-top: 60px;
+        }
+
+        .scores{
+            margin-top: 70px;
+            font-size: 25px;
+            font-weight: 700;
+        }
+
+        .reset-button{
+            margin-top: 40px;
+            padding: 25px 40px;
+            font-size: 25px;
+            font-weight: bolder;
+            background-image: linear-gradient(to right, #e6ed11, #ffc90b, #ffa530, #ff834c, #ff6765, #fd6391, #ea6cba, #c57ddb, #85a3ff, #00c3ff, #00dbff, #4cede0);
+            color: black;
+            border: none;
+            border-radius: 50px;
+        }
+
+        .revealScore{
+            font-size: 24px;
+            font-weight: bold;
+        }
+ 
