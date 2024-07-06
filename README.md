@@ -1,2 +1,2 @@
-# rock.paper.scissors.gam
+# rock.paper.scissors
 Rock Paper Scissors Game.
