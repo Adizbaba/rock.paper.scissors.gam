@@ -92,7 +92,7 @@ function playGame(playerMove) {
     localStorage.setItem('score', JSON.stringify(score));
     updateScore();
 
-    document.querySelector('.winLoseTie').innerHTML = `Me
+    document.querySelector('.winLoseTie').innerHTML = `You
         <img src="images/${playerMove}-emoji.png" class="move-icon">
         <img src="images/${computerMove}-emoji.png" class="move-icon">
         Computer`;
